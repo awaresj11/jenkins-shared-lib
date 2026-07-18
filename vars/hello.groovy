@@ -1,3 +1,3 @@
 def call(){
-  echo "hello students! How r u..?"
+  echo "hello students! welcome to devops class.."
 }
