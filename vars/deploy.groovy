@@ -1,4 +1,4 @@
-def call(string composeFile = "docker-compose.yml"){
+def call(String composeFile = "docker-compose.yml"){
   sh """
      echo "stopping old containers.."
      docker compose -f ${composeFile} down
